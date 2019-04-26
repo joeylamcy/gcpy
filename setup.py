@@ -23,7 +23,7 @@ on_rtd = os.environ.get('READTHEDOCS') == 'True'
 if on_rtd:
     INSTALL_REQUIRES = []
 else:
-    INSTALL_REQUIRES = ['esmpy', 'xarray', 'numpy', 'scipy']
+    INSTALL_REQUIRES = ['esmpy', 'xarray', 'numpy', 'scipy', 'cartopy', 'toolz']
 
 
 CLASSIFIERS = [
