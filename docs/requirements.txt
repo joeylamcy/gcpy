@@ -3,4 +3,5 @@ ipython
 nbsphinx
 xarray
 xbpch
+dask
 git+https://github.com/geoschem/gcpy
