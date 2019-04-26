@@ -1,4 +1,5 @@
 numpydoc
 ipython
 nbsphinx
+dask
 git+https://github.com/geoschem/gcpy
