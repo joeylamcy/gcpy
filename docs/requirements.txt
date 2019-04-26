@@ -18,3 +18,4 @@ six
 xarray
 sphinx
 proj
+GEOS
