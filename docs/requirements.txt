@@ -2,4 +2,5 @@ numpydoc
 ipython
 nbsphinx
 dask
+xarray
 git+https://github.com/geoschem/gcpy
