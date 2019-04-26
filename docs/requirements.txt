@@ -2,4 +2,5 @@ numpydoc
 ipython
 nbsphinx
 xarray
+xbpch
 git+https://github.com/geoschem/gcpy
