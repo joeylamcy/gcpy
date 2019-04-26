@@ -5,3 +5,15 @@ xarray
 xbpch
 dask
 git+https://github.com/geoschem/gcpy
+bottleneck
+cartopy
+cython
+dask
+esmpy
+future
+matplotlib
+netcdf4
+numpy
+six
+xarray
+sphinx
