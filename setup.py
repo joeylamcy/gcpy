@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+cd #!/usr/bin/env python
 
 import os
 import warnings
@@ -18,6 +18,14 @@ AUTHOR_EMAIL = "geos-chem-support@as.harvard.edu"
 URL = "http://gcpy.readthedocs.io/en/latest/"
 LICENSE = "MIT"
 
+# based on solution at https://github.com/rtfd/readthedocs.org/issues/5512#issuecomment-475024373                                                                 
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+if on_rtd:
+    INSTALL_REQUIRES = []
+else:
+    INSTALL_REQUIRES = ['esmpy', 'xarray', 'numpy', 'scipy']
+
+
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
     'License :: OSI Approved :: MIT License',
@@ -35,7 +43,6 @@ MINOR = 1
 MICRO = 1
 VERSION = "{}.{}.{}".format(MAJOR, MINOR, MICRO)
 DEV = True
-
 
 # Correct versioning with git info if DEV
 if DEV:
